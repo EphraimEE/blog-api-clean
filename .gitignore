@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# MongoDB binaries from manual/brew installs
+mongodb-macos-x86_64-*/
+mongodb-macos-x86_64-8.0.10/
+
+# mongodb-memory-server cache
+node_modules/.cache/mongodb-memory-server/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS-specific files
+.DS_Store
+.localized
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.env
